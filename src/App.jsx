@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-import { log } from "./log.js";
 import Header from "./components/Header.jsx";
 import Counter from "./components/Counter/Counter.jsx";
 import ConfigureCounter from "./components/Counter/ConfigureCounter.jsx";
+import { log } from "./log.js";
 
 function App() {
   log("<App /> rendered");
